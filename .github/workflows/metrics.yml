@@ -12,7 +12,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: YOUR_GITHUB_USERNAME
+          user: 0xF4ker
           template: classic
           base: header, activity, community, repositories
           plugin_languages: yes
